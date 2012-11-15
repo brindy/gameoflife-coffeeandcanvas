@@ -36,6 +36,10 @@ evolve = (world) ->
 # world is a set of live cells
 world = []
 
+#
+# Canvas renderer and game loop
+#
+
 canvas_renderer = (new_world) ->
     # Get context
     canvas = $('#conway')[0]
